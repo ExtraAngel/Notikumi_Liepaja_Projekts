@@ -1,0 +1,104 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.box {
+  display: grid;
+  flex-direction: row;
+  align-items: center;
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+}
+.box:nth-child(odd) {
+  grid-row: 1;
+}
+
+.box:nth-child(even) {
+  grid-row: 2;
+}
+
+@media screen and (max-width: 768px) {
+  .box-container {
+    grid-template-columns: 1fr;
+  }
+
+  .box:nth-child(odd),
+  .box:nth-child(even) {
+    grid-row: auto;
+  }
+}
+
+.box-image {
+  margin-right: 20px;
+}
+
+.box-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.box-content {
+  flex: 1;
+}
+
+.box-content h2 {
+  margin-top: 0;
+}
+
+.box-content p {
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0069d9;
+}
+
+/*
+NAVBAR CSS
+*/
+
+.nav {
+  height: 60px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding: 0.5rem 0rem;
+  background-color: #fff;
+  color: black;
+  box-shadow: 0 2px 2px 2px rgba(9, 9, 9, 0.23);
+}
+
+.nav-nosaukums {
+  text-decoration: none;
+  color: black;
+  font-size: 1.3rem;
+  margin-left: 1rem;
+}
+
+.nav-saites {
+  margin-left: auto;
+}
+
+.nav-saites ul {
+  display: flex;
+  padding: 0;
+}
+.nav-saites li {
+  list-style-type: none;
+  margin: 0 1rem;
+}
