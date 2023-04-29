@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "undefined/subscriptions/8fc529b1-ee68-40f7-ace2-aa9910162109/resourceGroups/Liepaja_Pasakumi/providers/Microsoft.Web/sites/NotikumiLiepaja",
+    "appService.deploySubpath": "."
+}
