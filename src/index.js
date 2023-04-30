@@ -14,6 +14,7 @@ export default function App() {
           <Route index element={<Main />} />
           <Route path="AboutUS" element={<AboutUS />} />
           <Route path="Main" element={<Main />} />
+          <Route path="Events" element={<Events />} />
         </Route>
       </Routes>
     </BrowserRouter>
