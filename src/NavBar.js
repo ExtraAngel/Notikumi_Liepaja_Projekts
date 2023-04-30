@@ -11,7 +11,9 @@ function Navbar() {
       <div className="nav-saites">
         <ul>
           <li>Aktuālais</li>
-          <li>Saraksts</li>
+          <li>
+            <Link to="/Events">Saraksts</Link>
+          </li>
           <li>
             <Link to="/AboutUS">Par mums</Link>
           </li>
