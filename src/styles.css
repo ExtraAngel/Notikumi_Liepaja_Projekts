@@ -133,3 +133,49 @@ NAVBAR CSS
 .col-lg-6 {
   text-align: center;
 }
+.event-rectangle {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #f7f7f7;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.event-details {
+  flex: 1;
+}
+
+.event-info {
+  flex: 1;
+  text-align: right;
+}
+
+.event-name {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.group-name {
+  font-size: 18px;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+.description {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.location, .time, .date, .price {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.price {
+  font-weight: bold;
+  color: #ff6600;
+}
