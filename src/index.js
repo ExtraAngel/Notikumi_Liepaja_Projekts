@@ -4,6 +4,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Layout from "./Layout";
 import Main from "./Main";
 import AboutUS from "./AboutUS";
+import Events from "./Events"
 
 //When Needed add another route to get the link function
 export default function App() {
@@ -14,6 +15,7 @@ export default function App() {
           <Route index element={<Main />} />
           <Route path="AboutUS" element={<AboutUS />} />
           <Route path="Main" element={<Main />} />
+          <Route path="Events" element={<Events />} />
         </Route>
       </Routes>
     </BrowserRouter>
