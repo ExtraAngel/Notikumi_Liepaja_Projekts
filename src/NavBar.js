@@ -31,7 +31,7 @@ function NavBar() {
   return (
     <div className="navigation-bar">
       <div className="title">Notikumi Liepājā</div>
-      <div className="buttons">
+      <div className="buttons" class="underline-on-click">
         <button>
           <Link to="/Main" className="normal-link">
             Aktuālais

@@ -33,3 +33,6 @@
   text-decoration: none;
   color: black;
 }
+.underline-on-click:focus {
+  text-decoration: underline;
+}
