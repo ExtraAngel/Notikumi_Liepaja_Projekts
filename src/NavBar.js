@@ -22,8 +22,8 @@ import { BrowserRouter, Route, Link } from "react-router-dom";
     </nav>
   );
 }
-
 export default Navbar;*/
+
 import React from "react";
 import "./NavBar.css";
 
@@ -38,17 +38,17 @@ function NavBar() {
       <div className="buttons" class="underline-on-click">
         <button>
           <Link to="/Main" className="normal-link">
-            Aktuālais
+            <h2>Aktuālais</h2>
           </Link>
         </button>
         <button>
           <Link to="/Events" className="normal-link">
-            Saraksts
+          <h2>Saraksts</h2>
           </Link>
         </button>
         <button>
           <Link to="/AboutUS" className="normal-link">
-            Par mums
+          <h2>Par mums</h2>
           </Link>
         </button>
       </div>
