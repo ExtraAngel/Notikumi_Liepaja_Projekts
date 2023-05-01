@@ -1,9 +1,8 @@
 import "./styles.css";
 import { Carousel } from "antd";
 import SlideTing from "./SlideTing";
-//import BoxTing from "./BoxTing";
 import BoxMain from "./BoxMain";
-import NavBar from "./NavBar"; //not yet used
+import NavBar from "./NavBar";
 
 export default function App() {
   return (
