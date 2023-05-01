@@ -1,4 +1,3 @@
-import "./BoxMain.css";
 import React from "react";
 import data from "./Sample.json";
 //import { EuroCircleOutlined, FieldTimeOutlined } from "@ant-design/icons";
@@ -12,19 +11,30 @@ import {
 
 function BoxMain(A) {
   //A = input, norada kurs pec kartas
+  var img = "img/"+A+".jpg"; //img url
   return (
     <div className="box">
+
       <div className="box-image">
-        <img src="./img/1.jpg" alt="Pasakuma attels" />
+        <img src={img} alt="Pasakuma attels" />
       </div>
+
       <div className="box-content">
         <h2>{data.Pasakumi[A].Nosaukums}</h2>
-        <p>
-          <FontAwesomeIcon icon={faLocationDot} />{" "}
-          {data.Pasakumi[A].Organizacija} <br></br>
-          <FontAwesomeIcon icon={faClock} /> {data.Pasakumi[A].Laiks} <br></br>
-          <FontAwesomeIcon icon={faEuroSign} /> {data.Pasakumi[A].Maksa}
-        </p>
+
+        <ul className="box-ul">
+          <li className="box-li">
+            <FontAwesomeIcon icon={faLocationDot}/> {" "}
+            {data.Pasakumi[A].Organizacija}
+          </li>
+          <li className="box-li">
+            <FontAwesomeIcon icon={faClock} /> {data.Pasakumi[A].Laiks}
+          </li>
+          <li className="box-li">
+            <FontAwesomeIcon icon={faEuroSign} /> {data.Pasakumi[A].Maksa}  
+          </li>    
+        </ul>
+
         <button>Uzzini Vairāk</button>
       </div>
     </div>

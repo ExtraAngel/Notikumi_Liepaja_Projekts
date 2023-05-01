@@ -55,6 +55,17 @@
 
 .box-content p {
   margin-bottom: 10px;
+  text-align: center;
+}
+
+.box-li {
+  list-style-type:none;
+  text-align: left;
+}
+
+.box-ul {
+  text-align: center;
+  margin-left: 35%;
 }
 
 button {
