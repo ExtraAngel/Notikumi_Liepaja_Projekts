@@ -1,7 +1,7 @@
 import "./BoxMain.css";
 import React from "react";
 import data from "./Sample.json";
-import { EuroCircleOutlined, FieldTimeOutlined } from "@ant-design/icons";
+//import { EuroCircleOutlined, FieldTimeOutlined } from "@ant-design/icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faLocationDot,
