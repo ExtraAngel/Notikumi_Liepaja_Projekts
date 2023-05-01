@@ -38,7 +38,7 @@ function AboutUS() {
         <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
         <div>Email: info@notikumiliepaja.lv</div>
         <div>Phone: 5555555555</div>
-        <div>Address: Alojas iela, Houston, California USA</div>
+        <div>Address: Ausekļa iela 9, Liepāja, LV-3401</div>
       </div>
     </div>
   );
