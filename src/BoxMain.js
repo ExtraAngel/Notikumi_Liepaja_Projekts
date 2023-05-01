@@ -8,7 +8,7 @@ function BoxMain(A) {
   return (
     <div className="box">
       <div className="box-image">
-        <img src="/img/1.jpg" alt="Pasakuma attels" />
+        <img src="./img/1.jpg" alt="Pasakuma attels" />
       </div>
       <div className="box-content">
         <h2>{data.Pasakumi[A].Nosaukums}</h2>

@@ -10,7 +10,7 @@ function AboutUS() {
     <div className="container">
       <div className="row">
         <div>
-          <h2 className="contact">Contact Us</h2>
+          <h2 className="contact">Sazinies ar mums</h2>
           <form>
             <div className="form-group">
               <Input
@@ -32,11 +32,11 @@ function AboutUS() {
         </div>
       </div>
       <div className="col-lg-6">
-        <h2>About Us</h2>
-        <p>..........................</p>
-        <p>................................</p>
-        <p>............................</p>
-        <div>Email: formoo@website.com</div>
+        <h2>Visi kultūras notikumi Liepājā - vienviet</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+        <div>Email: info@notikumiliepaja.lv</div>
         <div>Phone: 5555555555</div>
         <div>Address: Alojas iela, Houston, California USA</div>
       </div>
