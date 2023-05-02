@@ -1,0 +1,87 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    padding-bottom: 5px;
+  }
+  
+.image-ting {
+    flex-basis: 50%;
+  }
+.text {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+img {
+    width: 100%;
+  }
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+.button-group {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 15px;
+  }
+  
+button {
+    margin-right: 10px;
+  }
+  
+h1 {
+    font-size: 36px;
+    margin: 0;
+    margin-bottom: 20px;
+  }
+  
+.btn-first {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+.btn-second {
+    background-color: #6c757d;
+    color: #fff;
+    border: none;
+    padding: 5px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+.text-under {
+    text-align: center;
+  }
+.btn-more {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+
+.btn-more:hover {
+    background-color: #0069d9;
+  }
+.time-card {
+    border-color: green;
+    margin-left: 20px;
+    text-align: center;
+  }
+.time-time {
+    margin-bottom: 10px;
+  }

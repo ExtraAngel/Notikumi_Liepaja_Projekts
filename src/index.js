@@ -6,6 +6,7 @@ import Main from "./Main";
 import AboutUS from "./AboutUS";
 import Events from "./Events"
 import "./styles.css";
+import EventPage from "./EventPage";
 
 //When Needed add another route to get the link function
 export default function App() {
@@ -17,6 +18,7 @@ export default function App() {
           <Route path="AboutUS" element={<AboutUS />} />
           <Route path="Main" element={<Main />} />
           <Route path="Events" element={<Events />} />
+          <Route path="EventPage" element={<EventPage/>} />
         </Route>
       </Routes>
     </BrowserRouter>

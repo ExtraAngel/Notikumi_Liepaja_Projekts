@@ -4,6 +4,7 @@ import data from "./Sample.json";
 import "./Events.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {faLocationDot,faClock,faEuroSign} from "@fortawesome/free-solid-svg-icons";
+import { BrowserRouter, Route, Link } from "react-router-dom";
 
 function BoxEvent(A) {
     //A = input, norada kurs pec kartas
@@ -14,7 +15,9 @@ function BoxEvent(A) {
           <FontAwesomeIcon icon={faLocationDot}/> {" "} {data.Pasakumi[A].Organizacija} {"  "} 
           <FontAwesomeIcon icon={faClock} /> {" "} {data.Pasakumi[A].Laiks} {"  "} 
           <FontAwesomeIcon icon={faEuroSign} /> {" "} {data.Pasakumi[A].Maksa} {"  "}
-          <button className="event-button">Uzzini Vairāk</button>
+          <Link to="/EventPage" className="normal-link">
+            <button className="event-button">Uzzini Vairāk</button>
+          </Link>
         </Card>
     )
 }
