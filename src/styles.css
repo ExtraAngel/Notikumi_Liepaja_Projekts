@@ -59,7 +59,7 @@
 }
 
 .box-li {
-  list-style-type:none;
+  list-style-type: none;
   text-align: left;
 }
 
@@ -200,4 +200,9 @@ NAVBAR CSS
   margin: 20px;
   padding-top: 6px;
   border-color: green;
+}
+.ant-carousel .slick-slide-img {
+  margin: 0 auto;
+  background-color: white;
+  height: 180px;
 }
