@@ -24,7 +24,7 @@ export default function SlideTing() {
               <iframe
                 title="Joke"
                 frameborder="0"
-                src="https://th.bing.com/th/id/OIP.Gxhn2g67-uC_X7Jg0SSSGwHaEo?w=276&h=180&c=7&r=0&o=5&pid=1.7"
+                src="img/0.jpg"
                 allowFullScreen
                 className="slick-slide-img"
               ></iframe>
@@ -36,7 +36,7 @@ export default function SlideTing() {
               <iframe
                 title="Joke"
                 frameborder="0"
-                src="https://th.bing.com/th/id/OIP.Gxhn2g67-uC_X7Jg0SSSGwHaEo?w=276&h=180&c=7&r=0&o=5&pid=1.7"
+                src="img/1.jpg"
                 allowFullScreen
                 className="slick-slide-img"
               ></iframe>
@@ -48,7 +48,7 @@ export default function SlideTing() {
               <iframe
                 title="Joke"
                 frameborder="0"
-                src="https://th.bing.com/th/id/OIP.Gxhn2g67-uC_X7Jg0SSSGwHaEo?w=276&h=180&c=7&r=0&o=5&pid=1.7"
+                src="img/2.jpg"
                 allowFullScreen
                 className="slick-slide-img"
               ></iframe>
@@ -60,7 +60,7 @@ export default function SlideTing() {
               <iframe
                 title="Joke"
                 frameborder="0"
-                src="https://th.bing.com/th/id/OIP.Gxhn2g67-uC_X7Jg0SSSGwHaEo?w=276&h=180&c=7&r=0&o=5&pid=1.7"
+                src="img/4.jpg"
                 allowFullScreen
                 className="slick-slide-img"
               ></iframe>
