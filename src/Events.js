@@ -26,23 +26,31 @@
   );
 }*/
 import React from "react";
-import { Card } from "antd";
+import { Card, Col, Row  } from "antd";
+import data from "./Sample.json";
+import "./Events.css";
+import BoxEvent from "./BoxEvent";
 
 function Events() {
   return (
-    <div
-      className="event-card"
-      style={{ display: "flex", flexDirection: "column" }}
-    >
-      <Card className="event-card" title="Card title" bordered={true}>
-        Card content
-      </Card>
-      <Card className="event-card" title="Card title" bordered={true}>
-        Card content
-      </Card>
-      <Card className="event-card" title="Card title" bordered={true}>
-        Card content
-      </Card>
+    <div className="event-card"
+    style={{ display: "flex", flexDirection: "column" }}>
+    <Row gutter={8}>
+      <Col span={12}>
+        {BoxEvent(0)}
+      </Col>
+      <Col span={12}>
+        {BoxEvent(1)}
+      </Col>
+    </Row>
+    <Row gutter={8}>
+      <Col span={12}>
+        {BoxEvent(2)}
+      </Col>
+      <Col span={12}>
+        {BoxEvent(3)}
+      </Col>
+    </Row>
     </div>
   );
 }

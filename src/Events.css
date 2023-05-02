@@ -1,0 +1,13 @@
+.event-card {
+    display: flex;
+    flex-direction: column;
+}
+
+.ant-card-head-title {
+    text-align: center;
+}
+
+.card img {
+    border-radius: 5px;
+    align-content: center;
+}
