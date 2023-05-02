@@ -23,8 +23,24 @@ function BoxMain(A) {
 
       <div className="box-content">
         <h2>{data.Pasakumi[A].Nosaukums}</h2>
+            <FontAwesomeIcon icon={faLocationDot}/> {" "} {data.Pasakumi[A].Organizacija} {" "}
+            <FontAwesomeIcon icon={faClock} /> {" "} {data.Pasakumi[A].Laiks} {" "}
+            <FontAwesomeIcon icon={faEuroSign} /> {" "} {data.Pasakumi[A].Maksa} {" "}
+        <br></br>
+        <p>{data.Pasakumi[A].SApraksts} </p>     
+        <br></br>
+        <Link to={link} className="normal-link">
+        <button>Uzzini Vairāk</button>
+        </Link>
+      </div>
+    </div>
+  );
+}
 
-        <ul className="box-ul">
+export default BoxMain;
+
+/*
+<ul className="box-ul">
           <li className="box-li">
             <FontAwesomeIcon icon={faLocationDot}/> {" "} {data.Pasakumi[A].Organizacija}
           </li>
@@ -35,12 +51,4 @@ function BoxMain(A) {
             <FontAwesomeIcon icon={faEuroSign} /> {data.Pasakumi[A].Maksa}  
           </li>    
         </ul>
-        <Link to={link} className="normal-link">
-        <button>Uzzini Vairāk</button>
-        </Link>
-      </div>
-    </div>
-  );
-}
-
-export default BoxMain;
+*/
