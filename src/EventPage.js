@@ -22,7 +22,6 @@ function EventPage() {
             <div><FontAwesomeIcon icon={faClock} /> {data.Pasakumi[nr].Laiks}</div>
             <div><FontAwesomeIcon icon={faEuroSign} /> {data.Pasakumi[nr].Maksa} </div>
             <p>Adrese: {data.Pasakumi[nr].Adrese} {data.Pasakumi[nr].Vieta}<br></br>
-            Datums:  {data.Pasakumi[nr].Datums}<br></br>
             Tālrunis: {data.Pasakumi[nr].Tālrunis} <br></br>
             E-pasts: {data.Pasakumi[nr].Epasts}
             </p>
