@@ -14,6 +14,7 @@
   padding-left: 7%;
   font-size: 28px;
   font-weight:800;
+  
 }
 
 .buttons {
@@ -35,7 +36,7 @@
 }
 .normal-link {
   text-decoration: none;
-  color: black;
+  color: white;
 }
 .underline-on-click:focus {
   text-decoration: underline;

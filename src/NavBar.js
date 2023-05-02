@@ -36,21 +36,21 @@ function NavBar() {
         </Link>
       </div>
       <div className="buttons" class="underline-on-click">
-        <button>
-          <Link to="/Main" className="normal-link">
-            <h2>Aktuālais</h2>
-          </Link>
-        </button>
-        <button>
-          <Link to="/Events" className="normal-link">
-          <h2>Saraksts</h2>
-          </Link>
-        </button>
-        <button>
-          <Link to="/AboutUS" className="normal-link">
-          <h2>Par mums</h2>
-          </Link>
-        </button>
+        <Link to="/Main" className="normal-link">
+          <button>
+            <h2>Aktuālais</h2>  
+          </button>
+        </Link>
+        <Link to="/Events" className="normal-link">
+          <button>
+            <h2>Saraksts</h2>
+          </button>
+        </Link>
+        <Link to="/AboutUS" className="normal-link">
+          <button>
+            <h2>Par mums</h2>
+          </button>
+        </Link>
       </div>
     </div>
   );
