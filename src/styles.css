@@ -138,7 +138,9 @@ NAVBAR CSS
   width: 50%;
   margin-top: 15px;
 }
-.container {
+.container-about {
+  margin: auto;
+  max-width: 80%;
   display: grid;
   grid-template-columns: 55% 45%;
   text-align: center;

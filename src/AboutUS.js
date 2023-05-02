@@ -7,7 +7,7 @@ const { TextArea } = Input;
 
 function AboutUS() {
   return (
-    <div className="container">
+    <div className="container-about">
       <div className="row">
         <div>
           <h2 className="contact">Sazinies ar mums</h2>
@@ -36,8 +36,8 @@ function AboutUS() {
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
         <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
         <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-        <div>Email: info@notikumiliepaja.lv</div>
-        <div>Phone: 5555555555</div>
+        <div>E-pasts: info@notikumiliepaja.lv</div>
+        <div>Telefons: 5555555555</div>
         <div>Address: Ausekļa iela 9, Liepāja, LV-3401</div>
       </div>
     </div>

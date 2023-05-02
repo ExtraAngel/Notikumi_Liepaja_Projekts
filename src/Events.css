@@ -1,6 +1,8 @@
 .event-card {
     display: flex;
     flex-direction: column;
+    border-color: #16537a;
+    border-width: 2px;
 }
 
 .ant-card-head-title {
