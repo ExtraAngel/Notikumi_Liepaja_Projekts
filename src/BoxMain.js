@@ -26,8 +26,7 @@ function BoxMain(A) {
 
         <ul className="box-ul">
           <li className="box-li">
-            <FontAwesomeIcon icon={faLocationDot}/> {" "}
-            {data.Pasakumi[A].Organizacija}
+            <FontAwesomeIcon icon={faLocationDot}/> {" "} {data.Pasakumi[A].Organizacija}
           </li>
           <li className="box-li">
             <FontAwesomeIcon icon={faClock} /> {data.Pasakumi[A].Laiks}

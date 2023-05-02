@@ -116,16 +116,16 @@ NAVBAR CSS
   margin: 0 1rem;
 }
 .name {
-  width: 50%;
+  width: 70%;
   margin-left: 45px;
 }
 .e-mail {
-  width: 50%;
+  width: 70%;
   margin-left: 45px;
   margin-top: 15px;
 }
 .text-area {
-  width: 50%;
+  width: 70%;
   margin-left: 45px;
   margin-top: 15px;
   padding: 15px;
@@ -140,12 +140,13 @@ NAVBAR CSS
 }
 .container {
   display: grid;
-  grid-template-columns: 60% 40%;
+  grid-template-columns: 55% 45%;
   text-align: center;
 }
 .col-lg-6 {
   text-align: center;
 }
+
 .event-rectangle {
   display: flex;
   flex-direction: row;
