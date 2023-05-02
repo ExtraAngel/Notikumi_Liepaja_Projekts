@@ -2,19 +2,21 @@ import "./EventPageStyle.css";
 import React from "react";
 import { Card } from "antd";
 import data from "./Sample.json";
-
+import { useParams } from "react-router-dom";
 
 
 function EventPage() {
+  let {nr} = useParams();
+  var img = "../img/"+nr+".jpg";
   return (
     <div> {/* The big parent */}
     <div className="container"> {/* Splits the top into two */}
-        <div className="image-ting"> {/* Image on right side */}
-            <img src="img/0.jpg" alt="Pasākuma Attēls"/>
+        <div className="image-ting"> {/* Image on left side */}
+            <img src={img} alt="Pasākuma Attēls"/>
         </div>
         <div className="text"> {/* Text on the left*/}
-            <h2>{data.Pasakumi[0].Tips}</h2>
-            <p>Description of the text.</p>
+            <h2>{data.Pasakumi[nr].Tips}</h2>
+            <p>Description of the text. {nr}</p>
             <Card className="time-card">
             <div className="time-time"> Citi laiki: </div>
             <div className="button-group">

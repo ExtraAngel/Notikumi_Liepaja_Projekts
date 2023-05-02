@@ -9,13 +9,14 @@ import { BrowserRouter, Route, Link } from "react-router-dom";
 function BoxEvent(A) {
     //A = input, norada kurs pec kartas
     var img = "img/"+A+".jpg"; //img url
+    var link = "/EventPage/"+A;
     return (
         <Card className="event-card" title={data.Pasakumi[A].Nosaukums} bordered={true} 
         cover={<img alt="Pasākuma attēls" src={img}/>}>
           <FontAwesomeIcon icon={faLocationDot}/> {" "} {data.Pasakumi[A].Organizacija} {"  "} 
           <FontAwesomeIcon icon={faClock} /> {" "} {data.Pasakumi[A].Laiks} {"  "} 
           <FontAwesomeIcon icon={faEuroSign} /> {" "} {data.Pasakumi[A].Maksa} {"  "}
-          <Link to="/EventPage" className="normal-link">
+          <Link to={link} className="normal-link">
             <button className="event-button">Uzzini Vairāk</button>
           </Link>
         </Card>

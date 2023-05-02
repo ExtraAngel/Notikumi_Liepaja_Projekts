@@ -18,7 +18,7 @@ export default function App() {
           <Route path="AboutUS" element={<AboutUS />} />
           <Route path="Main" element={<Main />} />
           <Route path="Events" element={<Events />} />
-          <Route path="EventPage" element={<EventPage/>} />
+          <Route path="EventPage/:nr" element={<EventPage/>} />
         </Route>
       </Routes>
     </BrowserRouter>

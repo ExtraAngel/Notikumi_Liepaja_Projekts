@@ -7,11 +7,13 @@ import {
   faClock,
   faEuroSign
 } from "@fortawesome/free-solid-svg-icons";
+import { BrowserRouter, Route, Link } from "react-router-dom";
 // Box function for use on index page
 
 function BoxMain(A) {
   //A = input, norada kurs pec kartas
   var img = "img/"+A+".jpg"; //img url
+  var link = "/EventPage/"+A;
   return (
     <div className="box">
 
@@ -34,8 +36,9 @@ function BoxMain(A) {
             <FontAwesomeIcon icon={faEuroSign} /> {data.Pasakumi[A].Maksa}  
           </li>    
         </ul>
-
+        <Link to={link} className="normal-link">
         <button>Uzzini Vairāk</button>
+        </Link>
       </div>
     </div>
   );
