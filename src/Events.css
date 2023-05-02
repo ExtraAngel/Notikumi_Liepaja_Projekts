@@ -17,3 +17,17 @@
 .ant-card-body {
     font-size: 16px;
 }
+
+button {
+    float: right;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0069d9;
+  }
