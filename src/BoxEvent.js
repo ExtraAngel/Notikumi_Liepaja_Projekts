@@ -14,7 +14,7 @@ function BoxEvent(A) {
           <FontAwesomeIcon icon={faLocationDot}/> {" "} {data.Pasakumi[A].Organizacija} {"  "} 
           <FontAwesomeIcon icon={faClock} /> {" "} {data.Pasakumi[A].Laiks} {"  "} 
           <FontAwesomeIcon icon={faEuroSign} /> {" "} {data.Pasakumi[A].Maksa} {"  "}
-          <button>Uzzini Vairāk</button>
+          <button className="event-button">Uzzini Vairāk</button>
         </Card>
     )
 }
