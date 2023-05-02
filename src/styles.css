@@ -138,6 +138,13 @@ NAVBAR CSS
   width: 50%;
   margin-top: 15px;
 }
+
+.container {
+  display: grid;
+  grid-template-columns: 65% 35%;
+  text-align: center;
+}
+
 .container-about {
   margin: auto;
   max-width: 80%;
