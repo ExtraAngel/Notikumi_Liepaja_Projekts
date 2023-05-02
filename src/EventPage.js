@@ -1,6 +1,9 @@
 import "./EventPageStyle.css";
 import React from "react";
 import { Card } from "antd";
+import data from "./Sample.json";
+
+
 
 function EventPage() {
   return (
@@ -10,7 +13,7 @@ function EventPage() {
             <img src="img/0.jpg" alt="Pasākuma Attēls"/>
         </div>
         <div className="text"> {/* Text on the left*/}
-            <h2>Text</h2>
+            <h2>{data.Pasakumi[0].Tips}</h2>
             <p>Description of the text.</p>
             <Card className="time-card">
             <div className="time-time"> Citi laiki: </div>
