@@ -5,9 +5,15 @@
 
 .ant-card-head-title {
     text-align: center;
+    font-weight: 700;
+    font-size: 22px;
 }
 
 .card img {
     border-radius: 5px;
     align-content: center;
+}
+
+.ant-card-body {
+    font-size: 16px;
 }
