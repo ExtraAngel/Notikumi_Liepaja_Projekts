@@ -9,8 +9,8 @@ export default function Main() {
   return (
     <>
       <div className="App">
-        <div >
-          <img src="img/reklama.jpg" alt="Reklama" classname="reklama"/>
+        <div className="reklama">
+          <img src="img/reklama.jpg" alt="Reklama"  height="250"/>
         </div>
         <div>
           {BoxMain(0)}
