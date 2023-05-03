@@ -10,7 +10,7 @@ export default function Main() {
     <>
       <div className="App">
         <div className="reklama">
-          <img src="img/reklama.jpg" alt="Reklama"  height="250"/>
+          <img src="img/ReklamaPlus.jpg" alt="Reklama"  height="250"/>
         </div>
         <div>
           {BoxMain(0)}
