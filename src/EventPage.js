@@ -14,7 +14,7 @@ function EventPage() {
     <div> {/* The big parent */}
     <div className="container"> {/* Splits the top into two */}
         <div className="image-ting"> {/* Image on left side */}
-            <img src={img} alt="Pasākuma Attēls"  />
+            <img src={img} alt="Pasākuma Attēls" className="eventpage-img"/>
         </div>
         <div className="text"> {/* Text on the left*/}
             <h2>{data.Pasakumi[nr].Tips}</h2>
